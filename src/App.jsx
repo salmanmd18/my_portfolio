@@ -466,18 +466,18 @@ function Contact() {
           </div>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             <a
-              href="mailto:salman.dev@example.com"
+              href="mailto:salmanmohammed2018@gmail.com"
               className="flex items-center gap-3 rounded-2xl border border-black/5 bg-white/80 p-4 text-sm font-semibold text-ink transition hover:-translate-y-1 hover:border-accent hover:text-accent"
             >
               <Mail className="h-5 w-5 text-accent" />
-              salman.dev@example.com
+              salmanmohammed2018@gmail.com
             </a>
             <a
-              href="tel:+15551234567"
+              href="tel:+16465138347"
               className="flex items-center gap-3 rounded-2xl border border-black/5 bg-white/80 p-4 text-sm font-semibold text-ink transition hover:-translate-y-1 hover:border-accent hover:text-accent"
             >
               <Phone className="h-5 w-5 text-accent" />
-              +1 (555) 123-4567
+              646-513-8347
             </a>
             <a
               href="https://github.com/salmanmd18"

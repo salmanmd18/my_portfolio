@@ -1,17 +1,17 @@
 export const hero = {
   name: 'Salman Mohammed',
-  title: 'Machine Learning Engineer · LLMs · RAG · Agents',
+  title: 'AI Engineer · RAG & Agents · End-to-End Builder',
   focus: 'LLMs · RAG · Agents · Cloud AI',
   summary:
-    'I build production-grade AI systems: retrieval pipelines, domain agents, and intelligent assistants that are grounded, modular, and ready for real-world scale.',
+    'I integrate modern LLM tools into production apps and own the full stack—from data and prompts to APIs, UI, and deployment.',
   primaryCta: '#projects',
   secondaryCta: 'https://github.com/salmanmd18',
 }
 
 export const story = [
-  'I’m a Machine Learning Engineer focused on building applied LLM systems including RAG pipelines, role-aware assistants, voice agents, and retrieval workflows that perform reliably in production.',
-  'I’ve delivered AI systems across fintech, healthcare, travel, and airport automation, spanning document intelligence, conversational agents, and operational decision-support tools. My work centers on clarity, grounded responses, and user-focused design.',
-  'I like working at the intersection of AI, engineering, and product, turning complex ideas into fast, dependable systems that teams can ship with confidence.',
+  'I’m an AI Engineer who specializes in integrating LLMs into real products—RAG systems, role-aware assistants, and voice-based companions.',
+  'I’ve built AI solutions across fintech, healthcare, travel, and airport automation, working on everything from document intelligence and chatbots to airport CV systems and mobile travel companions.',
+  'I enjoy small, fast teams where I can own the full flow: understanding the use case, designing the workflow, wiring up APIs, stitching in LLMs, and getting a polished feature into users’ hands.',
 ]
 
 export const stats = [
@@ -72,6 +72,7 @@ export const experiences = [
     company: 'Smartrip (AI Travel Platform)',
     period: 'Mar 2025 – Aug 2025',
     bullets: [
+      'Acted as a full-stack AI engineer: wiring LLMs, voice, data, and payments into a single user-facing travel experience.',
       'Built a mobile-first travel assistant powered by voice agents, LLMs, and personalized itinerary generation.',
       'Developed voice-based AI companion using ElevenLabs TTS and conversational UX; preferences extracted via Vertex AI on GCP.',
       'Managed real-time flight/hotel recommendations and stored trip preferences in Supabase for dynamic itineraries.',
@@ -85,6 +86,7 @@ export const experiences = [
     company: 'Data Evolve Solutions · Digi Yatra',
     period: 'Jan 2023 – Aug 2024',
     bullets: [
+      'Worked as the glue between CV models, backend APIs, and AWS infra—owning features from prototyping to live traffic.',
       'Built computer vision infrastructure and cloud-deployed AI for airport-scale throughput.',
       'Developed facial recognition and YOLOv7-based boarding-pass scanning with PyTorch and ensemble tuning.',
       'Deployed containerized inference to AWS EKS via KServe using Docker & ECR; CI/CD with Lambda + API Gateway for stable rollouts.',
@@ -98,6 +100,7 @@ export const experiences = [
     company: 'Ineuron',
     period: 'Nov 2021 – Aug 2022',
     bullets: [
+      'Combined modeling, data analysis, and deployment to turn classical ML models into usable, demo-ready products.',
       'Random Forest regression for rental bike sharing with ~80% accuracy uplift; deployed on Heroku.',
       'Logistic Regression and SVM for Algerian Forest-Fire classification (~85% accuracy) with feature selection.',
       'Validated with MAE, RMSE, Precision, Recall, F1-Score; visualized metrics via Matplotlib/Seaborn/Plotly.',
@@ -115,14 +118,14 @@ export const projects = [
   },
   {
     name: 'Equity RAG Tool',
-    summary: 'RAG pipeline for finance Q&A over SEC filings and market news. Retrieves context and answers with grounded citations.',
+    summary: 'Built a production-style RAG pipeline that plugs into financial research workflows, using LLMs on top of vector search for reports and news.',
     stack: ['Python', 'LangChain', 'LlamaIndex', 'OpenAI', 'Vector DB', 'Docker'],
     link: 'https://github.com/salmanmd18/equity_research--rag',
     status: 'Open source',
   },
   {
     name: 'Coder Buddy · AI Coding Assistant',
-    summary: 'Multi-agent assistant that breaks down dev prompts into plans, generates code, and offers inline explanations with memory.',
+    summary: 'Built a multi-agent coding assistant that turns natural language dev requests into real code projects, using existing LLM APIs and file tooling.',
     stack: ['LangChain', 'OpenAI', 'Python', 'Node/React UI', 'Docker'],
     link: 'https://github.com/salmanmd18/code-agent',
     featured: true,
@@ -130,7 +133,7 @@ export const projects = [
   },
   {
     name: 'FinSolve RBAC Chatbot',
-    summary: 'Enterprise RAG+SQL assistant with strict role-based filtering, classifier-based routing, fallback logic, and usage analytics.',
+    summary: 'Designed a role-aware RAG + SQL assistant that integrates into an internal tool stack, enforcing permissions while answering department-specific questions.',
     stack: ['FastAPI', 'ChromaDB', 'DuckDB', 'OpenAI', 'RBAC', 'Python'],
     link: 'https://github.com/salmanmd18/rbac-agent',
     featured: true,
@@ -138,7 +141,7 @@ export const projects = [
   },
   {
     name: 'Dobbs Agent (DB Agent)',
-    summary: 'Vector-RAG over custom databases. Embeds docs, performs semantic search, and answers using LLM+schema-mapped responses.',
+    summary: 'Vector-RAG over custom databases, embedding docs and answering via LLM + schema-mapped responses for business data.',
     stack: ['LangChain', 'FastAPI', 'Vector DB', 'Docker', 'OpenAI'],
     link: 'https://github.com/salmanmd18/db_agent',
     featured: true,
@@ -146,10 +149,17 @@ export const projects = [
   },
   {
     name: 'Healthcare RAG Q&A',
-    summary: 'Medical RAG system that retrieves guidance from clinical files, retrieves semantically similar chunks, and answers with citation.',
+    summary: 'Integrated medical knowledge sources with an LLM-based QA layer to answer healthcare questions with grounded, citation-backed responses.',
     stack: ['Transformers', 'LangChain', 'Medical Embeddings', 'FastAPI', 'Docker'],
     link: 'https://github.com/salmanmd18/rag_llma',
     status: 'Open source',
+  },
+  {
+    name: 'SmartRip AI (Internship)',
+    summary: 'Helped build a mobile-first AI travel companion combining voice (ElevenLabs), Vertex AI, and backend services to personalize trips end-to-end.',
+    stack: ['FastAPI', 'Gemini LLM', 'Supabase', 'Stripe', 'Docker', 'GCP'],
+    link: '',
+    status: 'Internship · Private',
   },
   {
     name: 'Health Risk Assessment Portal',
