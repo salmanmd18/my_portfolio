@@ -84,7 +84,7 @@ export const experiences = [
   {
     role: 'Machine Learning Engineer',
     company: 'Data Evolve Solutions · Digi Yatra',
-    period: 'Jan 2023 – Aug 2024',
+    period: 'Sep 2022 – Jun 2023',
     bullets: [
       'Worked as the glue between CV models, backend APIs, and AWS infra—owning features from prototyping to live traffic.',
       'Built computer vision infrastructure and cloud-deployed AI for airport-scale throughput.',
@@ -172,6 +172,6 @@ export const projects = [
 ]
 
 export const education = [
-  { school: 'Saint Louis University', degree: 'Master of Science, Analytics', period: 'May 2025' },
-  { school: 'Jawaharlal Nehru Technological University', degree: 'Bachelor of Technology', period: 'May 2021' },
+  { school: 'Saint Louis University', degree: 'Master of Science, Analytics', period: 'Aug 2023 – May 2025' },
+  { school: 'Jawaharlal Nehru Technological University', degree: 'Bachelor of Technology', period: 'Aug 2017 – Aug 2021' },
 ]

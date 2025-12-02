@@ -56,7 +56,7 @@ function Navbar() {
         </nav>
         <div className="flex items-center gap-2">
           <a
-            href="/resume.pdf"
+            href="/Salman_Mohammed_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="hidden items-center rounded-full border border-black/20 px-3 py-2 text-sm font-semibold text-ink transition hover:border-accent hover:bg-black/5 md:inline-flex"
@@ -92,14 +92,14 @@ function Navbar() {
                   {id.charAt(0).toUpperCase() + id.slice(1)}
                 </a>
               ))}
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm font-semibold text-ink hover:text-accent"
-              >
-                Resume
-              </a>
+            <a
+              href="/Salman_Mohammed_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm font-semibold text-ink hover:text-accent"
+            >
+              Resume
+            </a>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ function Hero() {
               GitHub
             </a>
             <a
-              href="/resume.pdf"
+              href="/Salman_Mohammed_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-black/10 px-6 py-3 text-sm font-semibold text-ink transition hover:border-accent hover:text-accent"
